@@ -10,7 +10,7 @@ import Intro from "@/components/Intro";
 export default function Home() {
 
   return (
-    <>
+    <div className="w-[100vw] overflow-y-hidden">
       <FadeIn delay={0}>
         <div className="w-[100vw] h-[100vh]">
           <Intro />
@@ -30,7 +30,7 @@ export default function Home() {
       </FadeIn>
 
       <FadeIn delay={0}>        
-        <div className="w-[100vw] h-[100vw] p-5">
+        <div className="w-[100vw] md:h-[100vw] p-5">
           <AllRender /> 
         </div>
       </FadeIn>
@@ -40,6 +40,6 @@ export default function Home() {
             <Comparison />
         </div>
       </FadeIn>
-    </>
+    </div>
   );
 };

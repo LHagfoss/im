@@ -6,15 +6,15 @@ export default function Comparison() {
     return (
         <div className="w-full h-full flex flex-col justify-center items-center">
             <div className="">
-                <div className="text-[7vw]">Forskjellen mellom</div>
+                <div className="text-[10vw] md:text-[7vw]">Forskjellen mellom</div>
             </div>
-            <div className="flex h-[60vh] gap-5">
+            <div className="flex flex-col md:flex-row MD:h-[60vh] gap-5">
                 <div className="flex flex-col justify-center items-center gap-5">
-                    <div className="text-white text-[3vw]">Cycles</div>
+                    <div className="text-white text-[5vw] md:text-[3vw]">Cycles</div>
                     <Image src={Image1} alt="" className="w-full object-contain rounded-3xl"></Image>
                 </div>
                 <div className="flex flex-col justify-center items-center gap-5">
-                    <div className="text-white text-[3vw]">Eevee</div>
+                    <div className="text-white text-[5vw] md:text-[3vw]">Eevee</div>
                     <Image src={Image2} alt="" className="w-full object-contain rounded-3xl"></Image>
                 </div>
             </div>

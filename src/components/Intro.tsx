@@ -10,7 +10,7 @@ export default function Intro() {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 1, delay: 0.8 }}
-                className="text-white text-center text-[7vw] leading-tight"
+                className="text-white text-center text-[8vw] md:text-[7vw] leading-tight"
             >
                 Informasjonsteknologi og <br />Medieproduksjon
             </motion.div>
@@ -22,8 +22,8 @@ export default function Intro() {
                 className="pt-20 w-full left-0 flex justify-center"
             >
                 <Link 
-                    href="https://"
-                    className="text-[2vw] underline text-sky-600"
+                    href="https://informasjon.vercel.app"
+                    className="text-[5vw] md:text-[2vw] underline text-sky-600"
                 >
                     Link til nettsiden
                 </Link>
@@ -36,7 +36,7 @@ export default function Intro() {
                 className="w-full left-0 flex justify-center"
             >
                 <div 
-                    className="text-[2vw] text-white"
+                    className="text-[5vw] md:text-[2vw] text-white"
                 >
                     Laget av Lucas og Odin
                 </div>

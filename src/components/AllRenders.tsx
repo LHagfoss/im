@@ -10,7 +10,7 @@ import Image7 from "../../public/freaksawman.png";
 
 export default function AllRender() {
     return (
-        <div className="w-full h-full grid grid-rows-6 grid-cols-4 gap-5">
+        <div className="w-full h-full flex flex-col md:grid grid-rows-6 grid-cols-4 gap-5">
             <div
                 className="col-span-2 row-span-3"
             >
