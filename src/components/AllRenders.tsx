@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { motion } from "framer-motion"
 
 import Image1 from "../../public/brainrender.png";
 import Image2 from "../../public/image5.png";
